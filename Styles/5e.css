@@ -1,0 +1,40 @@
+
+    body {
+      text-align: center;
+    }
+
+    p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    }
+
+    .one{
+        color: orange;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .two{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .three{
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .four{
+        font-size: 25px;
+        color:rgb(65, 63, 63)
+    }
+
+    button{
+        background-color: blue;
+        color: white;
+        height: 36px;
+        width: 68px;
+        border-radius: 18px;
+        border: none;
+    }
+
