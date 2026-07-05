@@ -8,6 +8,8 @@
 
 .left-section{
     width: 150px;
+    align-items: center;
+    display: flex;
 }
 
 .middle-section{
