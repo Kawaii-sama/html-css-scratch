@@ -28,6 +28,16 @@
     max-width: 500px;
 }
 
+.search-button{
+    height: 40px;
+    width: 60px;
+}
+
+.voice-button-search{
+    height: 40px;
+    width: 40px;
+}
+
 .right-section{
     width: 200px;
 }
