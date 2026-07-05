@@ -3,7 +3,7 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space between;
+    justify-content: space-between;
 }
 
 .left-section{
@@ -50,12 +50,13 @@
 
 .search-button{
     height: 40px;
-    width: 60px;
+    width: 64px;
     background-color: rgb(240,240,240);
-    border-width: 1 px;
+    border-width: 1px;
     border-style: solid;
     border-color:rgb(192, 192, 192);
     margin-left: -1px;
+    margin-right: 10px;
 }
 
 .search-icon{
@@ -63,9 +64,17 @@
     margin-top: 4px;
 }
 
-.voice-button-search{
+.voice-search-button{
     height: 40px;
     width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+}
+
+.voice-search-icon{
+    height: 24px;
+    margin-top: 4px;
 }
 
 .right-section{
