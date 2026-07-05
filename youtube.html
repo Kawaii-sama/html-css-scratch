@@ -15,26 +15,14 @@
 
 
             .thumbu{
-                width: 300px;
-                display: block;
+                width: 100%;
             }
 
-            .thumbu2{
-                width: 300px;
-
-            }
 
             .searchBar{
                 display: block;
             }
 
-
-            .preview{
-                width : 300px;
-                display: inline-block;
-                vertical-align: top;
-                margin-right: 20px;
-            }
 
             .video-info-grid{
                 display: grid;
@@ -68,6 +56,12 @@
             .video-author{
                 margin-bottom: 4px;
             }
+
+            .video-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 16px; row-gap: 40px;
+            }
         </style>
     </head>
     <body>
@@ -90,7 +84,7 @@
 
             <div class="preview">
                 <div class="thumbnailRow">
-                    <div> <img class="thumbu2" src="thumbnails/thumbnail-2.webp"> </div>
+                    <div> <img class="thumbu" src="thumbnails/thumbnail-2.webp"> </div>
                 </div>
                     <div  class="video-info-grid">    
                         <div  class="channelpic"> <img class="pfp" src="channel/channel-2.jpeg" > </div>
@@ -169,7 +163,7 @@
                             </div>
                     </div>
             </div>
-    </div>
+        </div>
 
         
 
