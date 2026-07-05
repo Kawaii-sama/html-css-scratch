@@ -102,6 +102,19 @@
     opacity: 1;
 }
 
+
+.upload-icon-container .tooltip
+{
+    bottom: -38px;
+}
+
+.search-button:hover, 
+.voice-search-button:hover,
+.upload-icon-container
+{
+    cursor:pointer;
+}
+
 .search-icon{
     height: 25px;
 }
@@ -130,6 +143,7 @@
 
 .upload-icon{
     height: 24px;
+
 }
 
 .youtube-apps-icon{
