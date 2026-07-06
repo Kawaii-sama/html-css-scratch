@@ -104,7 +104,8 @@
 
 .search-button:hover .tooltip,.voice-search-button:hover .tooltip,
 .upload-icon-container:hover .tooltip,
-.youtube-apps-container:hover .tooltip
+.youtube-apps-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip
 {
     opacity: 1;
 }
@@ -121,7 +122,8 @@
 .voice-search-button:hover,
 .upload-icon-container:hover,
 .youtube-apps-container:hover,
-.notifications-icon-container
+.notifications-icon-container,
+.current-user-picture-container
 {
     cursor:pointer;
 }
