@@ -6,4 +6,8 @@ alert("Be careful hehehe")
 var a = prompt("")
 console.log(a)
 
+let naam = prompt("hello apna naam likho")
+console.log("likh diya naam",naam)
+
+
 /** confirm */
